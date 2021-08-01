@@ -1,8 +1,12 @@
 <<<<<<< HEAD
 import random
 =======
+<<<<<<< HEAD
+import random
+=======
 #import random
 >>>>>>> 66370bcc9858b510bd045c170f0ab235b988ef43
+>>>>>>> 1de2ca641e7641b5b791ce9850df5d986bfe70bf
 rock = '''
     _______
 ---'   ____)
@@ -63,8 +67,8 @@ elif player == 1:
 elif player == 2:
   print(scissors)
 
-#computer = random.randint(0, 2)
-computer =0
+computer = random.randint(0, 2)
+
 print("Computer")
 if computer == 0:
   print(rock)
