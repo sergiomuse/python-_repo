@@ -1,4 +1,4 @@
-#import random
+import random
 rock = '''
     _______
 ---'   ____)
@@ -38,8 +38,8 @@ elif player == 1:
 elif player == 2:
   print(scissors)
 
-#computer = random.randint(0, 2)
-computer =0
+computer = random.randint(0, 2)
+
 print("Computer")
 if computer == 0:
   print(rock)
