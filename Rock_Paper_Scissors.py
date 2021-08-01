@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 import random
+=======
+<<<<<<< HEAD
+import random
+=======
+#import random
+>>>>>>> 66370bcc9858b510bd045c170f0ab235b988ef43
+>>>>>>> 1de2ca641e7641b5b791ce9850df5d986bfe70bf
 rock = '''
     _______
 ---'   ____)
@@ -25,6 +33,27 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+<<<<<<< HEAD
+game_images = [rock, paper, scissors]
+print("Welcome to game Rock, Paper or Scissor")
+print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+player = int(input())
+print("Player")
+print(game_images[player])
+computer = random.randint(0,2)
+print("Computer")
+print(game_images[computer])
+
+row1 = ["Draw","You lose","You win"]
+row2 = ["You win","Draw","You lose"]
+row3 = ["You lose","You win","Draw"]
+map = [row1, row2, row3]
+
+resultado = map [player][computer]
+print(resultado)
+
+
+=======
 
 print("Welcome  to game rock, paper or scissors \n")
 print("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors")
@@ -57,3 +86,4 @@ print(computer)
 resultado =  map [player][computer]
 
 print(resultado)
+>>>>>>> 66370bcc9858b510bd045c170f0ab235b988ef43
