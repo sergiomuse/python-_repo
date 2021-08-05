@@ -1,6 +1,8 @@
 import random
 from hangman_art import stages, logo
 from hangman_words import word_list
+import os
+clear = lambda:os.system('cls')
 
 
 print(logo)
@@ -17,7 +19,7 @@ for _ in range(word_length):
 while not game_is_finished:
     guess = input("Guess a letter: ").lower()
 
-    
+    clear()
 
     if guess in display:
         print(f"You've already guessed {guess}")
